@@ -3,7 +3,6 @@
 #include <string>
 #include <iostream>
 #include <fstream>
-#include "entryList.h"
 class Entry
 {
 private:
@@ -18,6 +17,7 @@ public:
   Entry(std::string input);
   ~Entry();
   void print();
+  void setDetails(std::string input);
 };
 
 #endif

@@ -18,3 +18,7 @@ void Entry::print()
 {
     std::cout << entry;
 }
+void Entry::setDetails(std::string input)
+{
+    entry = input;
+}
